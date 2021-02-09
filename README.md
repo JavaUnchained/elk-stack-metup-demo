@@ -11,7 +11,7 @@
 6. Перейти в `kibana/config/kibana.yml` и убрать коментарий с строки `elasticsearch.hosts: ["http://localhost:9200"]`
 7. Запустить elasticSearch `elastic/bin/elasticsearch.bat` (windows) или `elastic/bin/elasticsearch` (linux) , если запуск был успешен то можно увидеть json ответ при запросе на `localhost:9200`
 8. Запустить kibana `kibana/bin/kibana.bat` (windows) или `kibana/bin/kibana` , если запуск был успешен то можно перейти на `localhost:5601`
-9. Запустить logstash из командной строки `./logstash/bin/logstash.bat  netflix-logstash.conf` из папки где нахоидтся конфиг
+9. Запустить logstash из командной строки `./logstash/bin/logstash.bat -f netflix-logstash.conf` из папки где нахоидтся конфиг
 
 ### Визуалицаия (kibana)
 1. Откройте kibana `localhost:5601`
